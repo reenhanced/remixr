@@ -1,10 +1,10 @@
 require 'forwardable'
 require 'rubygems'
 
-gem 'mash', '0.0.3'
+gem 'mash'
 require 'mash'
 
-gem 'httparty', '0.4.3'
+gem 'httparty'
 require 'httparty'
 
 class APIKeyNotSet   < StandardError; end
